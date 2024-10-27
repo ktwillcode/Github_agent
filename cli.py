@@ -1,4 +1,4 @@
-# cli.py
+# cli.py(For running code in CLI)
 import click
 import os
 from main import GitHubAnalysisAgent
