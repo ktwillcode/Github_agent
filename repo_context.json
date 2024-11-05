@@ -1,0 +1,94 @@
+{
+  "repo_name": "AI-Tool_Agent.git",
+  "branch": "main",
+  "structure": {
+    "ai_routing_agent.py": null,
+    "LICENSE": null,
+    "README.md": null,
+    "requirements.txt": null,
+    "tools": {
+      "multiplication_tool.py": null,
+      "text_funifier.py": null,
+      "text_summarizer.py": null,
+      "vowel_counter.py": null,
+      "__init__.py": null
+    }
+  },
+  "main_languages": [
+    "python"
+  ],
+  "files": [
+    {
+      "path": "temp_repo_main\\ai_routing_agent.py",
+      "language": "python",
+      "imports": [
+        "os",
+        "datetime.datetime",
+        "typing.Annotated",
+        "typing.TypedDict",
+        "langchain_core.prompts.ChatPromptTemplate",
+        "langchain_core.runnables.RunnableConfig",
+        "langchain_groq.ChatGroq",
+        "tools.llm_text_summarizer",
+        "tools.llm_text_funifier",
+        "tools.multiplication_tool",
+        "tools.vowel_counter"
+      ],
+      "dependencies": [],
+      "description": "Source code file in python"
+    },
+    {
+      "path": "temp_repo_main\\tools\\multiplication_tool.py",
+      "language": "python",
+      "imports": [
+        "langchain_core.tools.tool",
+        "typing.List"
+      ],
+      "dependencies": [],
+      "description": "Source code file in python"
+    },
+    {
+      "path": "temp_repo_main\\tools\\text_funifier.py",
+      "language": "python",
+      "imports": [
+        "langchain_core.tools.tool",
+        "langchain_groq.ChatGroq",
+        "os"
+      ],
+      "dependencies": [],
+      "description": "Source code file in python"
+    },
+    {
+      "path": "temp_repo_main\\tools\\text_summarizer.py",
+      "language": "python",
+      "imports": [
+        "langchain_core.tools.tool",
+        "langchain_groq.ChatGroq",
+        "os"
+      ],
+      "dependencies": [],
+      "description": "Source code file in python"
+    },
+    {
+      "path": "temp_repo_main\\tools\\vowel_counter.py",
+      "language": "python",
+      "imports": [
+        "langchain_core.tools.tool"
+      ],
+      "dependencies": [],
+      "description": "Source code file in python"
+    },
+    {
+      "path": "temp_repo_main\\tools\\__init__.py",
+      "language": "python",
+      "imports": [
+        "text_summarizer.llm_text_summarizer",
+        "text_funifier.llm_text_funifier",
+        "multiplication_tool.multiplication_tool",
+        "vowel_counter.vowel_counter"
+      ],
+      "dependencies": [],
+      "description": "Source code file in python"
+    }
+  ]
+}
